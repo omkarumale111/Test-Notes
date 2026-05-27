@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 25 20:26:49 IST 2026","Mon May 25 20:27:13 IST 2026","23967","Suite","Test","com.capstone.notes.automation.tests.ui.NotesTest","com.capstone.notes.automation.tests.ui.NotesTest","deleteNoteTest","deleteNoteTest",""
+"passed","Mon May 25 20:24:38 IST 2026","Mon May 25 20:24:50 IST 2026","11383","Suite","Test","com.capstone.notes.automation.tests.ui.LoginTest","com.capstone.notes.automation.tests.ui.LoginTest","loginTest","loginTest",""
+"passed","Mon May 25 20:27:13 IST 2026","Mon May 25 20:27:14 IST 2026","1557","Suite","Test","com.capstone.notes.automation.tests.ui.NotesTest","com.capstone.notes.automation.tests.ui.NotesTest","invalidNoteTest","invalidNoteTest",""
+"passed","Mon May 25 20:24:27 IST 2026","Mon May 25 20:24:33 IST 2026","5860","Suite","Test","com.capstone.notes.automation.tests.ui.LoginTest","com.capstone.notes.automation.tests.ui.LoginTest","loginTest","loginTest",""
+"passed","Mon May 25 20:25:03 IST 2026","Mon May 25 20:25:08 IST 2026","5253","Suite","Test","com.capstone.notes.automation.tests.ui.NotesTest","com.capstone.notes.automation.tests.ui.NotesTest","createNoteTest","createNoteTest",""
+"passed","Mon May 25 20:25:08 IST 2026","Mon May 25 20:26:06 IST 2026","58192","Suite","Test","com.capstone.notes.automation.tests.ui.NotesTest","com.capstone.notes.automation.tests.ui.NotesTest","searchNoteTest","searchNoteTest",""
+"passed","Mon May 25 20:26:06 IST 2026","Mon May 25 20:26:49 IST 2026","42572","Suite","Test","com.capstone.notes.automation.tests.ui.NotesTest","com.capstone.notes.automation.tests.ui.NotesTest","editNoteTest","editNoteTest",""

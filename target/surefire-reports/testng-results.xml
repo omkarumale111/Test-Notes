@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-27T13:06:04 IST" name="Surefire suite" finished-at="2026-05-27T13:14:23 IST" duration-ms="499016">
+    <groups>
+    </groups>
+    <test started-at="2026-05-27T13:06:04 IST" name="Surefire test" finished-at="2026-05-27T13:14:23 IST" duration-ms="499016">
+      <class name="com.capstone.notes.automation.tests.e2e.E2ETest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.capstone.notes.automation.tests.e2e.E2ETest@525d79f0]" started-at="2026-05-27T13:06:13 IST" name="setup" finished-at="2026-05-27T13:06:14 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeWorkflowTest()[pri:0, instance:com.capstone.notes.automation.tests.e2e.E2ETest@525d79f0]" started-at="2026-05-27T13:06:14 IST" name="completeWorkflowTest" finished-at="2026-05-27T13:08:36 IST" duration-ms="142351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeWorkflowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.notes.automation.tests.e2e.E2ETest@525d79f0]" started-at="2026-05-27T13:08:36 IST" name="tearDown" finished-at="2026-05-27T13:08:37 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.capstone.notes.automation.tests.e2e.E2ETest -->
+      <class name="com.capstone.notes.automation.tests.api.NotesApiTest">
+        <test-method signature="createNoteApiTest()[pri:0, instance:com.capstone.notes.automation.tests.api.NotesApiTest@48f5bde6]" started-at="2026-05-27T13:06:04 IST" name="createNoteApiTest" finished-at="2026-05-27T13:06:07 IST" duration-ms="2576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteApiTest -->
+        <test-method signature="deleteNoteApiTest()[pri:0, instance:com.capstone.notes.automation.tests.api.NotesApiTest@48f5bde6]" started-at="2026-05-27T13:06:07 IST" name="deleteNoteApiTest" finished-at="2026-05-27T13:06:09 IST" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoteApiTest -->
+        <test-method signature="getNotesTest()[pri:0, instance:com.capstone.notes.automation.tests.api.NotesApiTest@48f5bde6]" started-at="2026-05-27T13:06:09 IST" name="getNotesTest" finished-at="2026-05-27T13:06:10 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotesTest -->
+        <test-method signature="invalidCreateNoteApiTest()[pri:0, instance:com.capstone.notes.automation.tests.api.NotesApiTest@48f5bde6]" started-at="2026-05-27T13:06:10 IST" name="invalidCreateNoteApiTest" finished-at="2026-05-27T13:06:12 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCreateNoteApiTest -->
+        <test-method signature="responseTimeTest()[pri:0, instance:com.capstone.notes.automation.tests.api.NotesApiTest@48f5bde6]" started-at="2026-05-27T13:06:12 IST" name="responseTimeTest" finished-at="2026-05-27T13:06:13 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeTest -->
+      </class> <!-- com.capstone.notes.automation.tests.api.NotesApiTest -->
+      <class name="com.capstone.notes.automation.tests.ui.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:21 IST" name="setup" finished-at="2026-05-27T13:11:30 IST" duration-ms="9710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:30 IST" name="initializePage" finished-at="2026-05-27T13:11:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:30 IST" name="loginTest" data-provider="loginData" finished-at="2026-05-27T13:11:35 IST" duration-ms="4372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[varadvtelang04@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:35 IST" name="tearDown" finished-at="2026-05-27T13:11:35 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:35 IST" name="setup" finished-at="2026-05-27T13:11:41 IST" duration-ms="6373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initializePage()[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:41 IST" name="initializePage" finished-at="2026-05-27T13:11:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePage -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:41 IST" name="loginTest" data-provider="loginData" finished-at="2026-05-27T13:11:49 IST" duration-ms="7770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.notes.automation.tests.ui.LoginTest@7072bc39]" started-at="2026-05-27T13:11:49 IST" name="tearDown" finished-at="2026-05-27T13:11:49 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.capstone.notes.automation.tests.ui.LoginTest -->
+      <class name="com.capstone.notes.automation.tests.ui.NotesTest">
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:com.capstone.notes.automation.tests.ui.NotesTest@70e29e14]" started-at="2026-05-27T13:11:49 IST" name="initializePages" finished-at="2026-05-27T13:12:00 IST" duration-ms="10846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="createNoteTest()[pri:1, instance:com.capstone.notes.automation.tests.ui.NotesTest@70e29e14]" started-at="2026-05-27T13:12:00 IST" name="createNoteTest" finished-at="2026-05-27T13:12:03 IST" duration-ms="3186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteTest -->
+        <test-method signature="searchNoteTest()[pri:2, instance:com.capstone.notes.automation.tests.ui.NotesTest@70e29e14]" started-at="2026-05-27T13:12:03 IST" name="searchNoteTest" finished-at="2026-05-27T13:12:54 IST" duration-ms="50815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNoteTest -->
+        <test-method signature="editNoteTest()[pri:3, instance:com.capstone.notes.automation.tests.ui.NotesTest@70e29e14]" started-at="2026-05-27T13:12:54 IST" name="editNoteTest" finished-at="2026-05-27T13:13:32 IST" duration-ms="37489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editNoteTest -->
+        <test-method signature="deleteNoteTest()[pri:4, instance:com.capstone.notes.automation.tests.ui.NotesTest@70e29e14]" started-at="2026-05-27T13:13:32 IST" name="deleteNoteTest" finished-at="2026-05-27T13:13:51 IST" duration-ms="19504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoteTest -->
+        <test-method signature="invalidNoteTest()[pri:5, instance:com.capstone.notes.automation.tests.ui.NotesTest@70e29e14]" started-at="2026-05-27T13:13:51 IST" name="invalidNoteTest" finished-at="2026-05-27T13:13:52 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidNoteTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.capstone.notes.automation.tests.ui.NotesTest@70e29e14]" started-at="2026-05-27T13:13:52 IST" name="closeBrowser" finished-at="2026-05-27T13:13:53 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.capstone.notes.automation.tests.ui.NotesTest -->
+      <class name="com.capstone.notes.automation.tests.e2e.HybridTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:08:37 IST" name="setup" finished-at="2026-05-27T13:08:38 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCreatedNoteViaApiAppearsInUI()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:08:38 IST" name="validateCreatedNoteViaApiAppearsInUI" finished-at="2026-05-27T13:09:24 IST" duration-ms="46358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedNoteViaApiAppearsInUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:09:24 IST" name="tearDown" finished-at="2026-05-27T13:09:24 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:09:24 IST" name="setup" finished-at="2026-05-27T13:09:25 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateDeletedNoteDisappearsFromUI()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:09:25 IST" name="validateDeletedNoteDisappearsFromUI" finished-at="2026-05-27T13:10:22 IST" duration-ms="56565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeletedNoteDisappearsFromUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:10:22 IST" name="tearDown" finished-at="2026-05-27T13:10:22 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:10:22 IST" name="setup" finished-at="2026-05-27T13:10:23 IST" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUiApiDataConsistency()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:10:23 IST" name="validateUiApiDataConsistency" finished-at="2026-05-27T13:11:20 IST" duration-ms="56895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUiApiDataConsistency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.notes.automation.tests.e2e.HybridTest@5149f008]" started-at="2026-05-27T13:11:20 IST" name="tearDown" finished-at="2026-05-27T13:11:21 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.capstone.notes.automation.tests.e2e.HybridTest -->
+      <class name="com.capstone.notes.automation.tests.ui.RegisterTest">
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:com.capstone.notes.automation.tests.ui.RegisterTest@3b1bb3ab]" started-at="2026-05-27T13:13:53 IST" name="initializePages" finished-at="2026-05-27T13:13:58 IST" duration-ms="5849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="registerTest()[pri:0, instance:com.capstone.notes.automation.tests.ui.RegisterTest@3b1bb3ab]" started-at="2026-05-27T13:13:58 IST" name="registerTest" finished-at="2026-05-27T13:14:23 IST" duration-ms="24595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.capstone.notes.automation.tests.ui.RegisterTest@3b1bb3ab]" started-at="2026-05-27T13:14:23 IST" name="closeBrowser" finished-at="2026-05-27T13:14:23 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.capstone.notes.automation.tests.ui.RegisterTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

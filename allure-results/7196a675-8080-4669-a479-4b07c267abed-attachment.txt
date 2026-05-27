@@ -1,0 +1,15 @@
+{
+    "success": true,
+    "status": 200,
+    "message": "Note successfully created",
+    "data": {
+        "id": "6a169fab53916b0295cdba63",
+        "title": "API Test Note",
+        "description": "Created note using API",
+        "category": "Home",
+        "completed": false,
+        "created_at": "2026-05-27T07:39:23.895Z",
+        "updated_at": "2026-05-27T07:39:23.895Z",
+        "user_id": "6a0fe08f038935029661e54a"
+    }
+}

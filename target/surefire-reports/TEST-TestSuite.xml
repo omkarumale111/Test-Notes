@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="499.732" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\omkar\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\omkar\Downloads\Notes-Automation-Framework-20260527T051252Z-3-001\Notes-Automation-Framework\target\test-classes;C:\Users\omkar\Downloads\Notes-Automation-Framework-20260527T051252Z-3-001\Notes-Automation-Framework\target\classes;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\omkar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\omkar\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\omkar\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\omkar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\omkar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\omkar\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\omkar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\omkar\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\omkar\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\omkar\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\omkar\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\omkar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\omkar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\omkar\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\omkar\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\omkar\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\omkar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\omkar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\omkar\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\omkar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\omkar\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\omkar\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\omkar\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\omkar\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\omkar\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\omkar\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\omkar\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\omkar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\omkar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\omkar\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\omkar\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\omkar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\omkar\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\omkar\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\omkar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\omkar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\omkar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\omkar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\omkar\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\omkar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\omkar\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.1\log4j-core-2.24.1.jar;C:\Users\omkar\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.3\bin"/>
+    <property name="sun.java.command" value="C:\Users\omkar\AppData\Local\Temp\surefire12549746959955930966\surefirebooter-20260527130603593_3.jar C:\Users\omkar\AppData\Local\Temp\surefire12549746959955930966 2026-05-27T13-06-03_509-jvmRun1 surefire-20260527130603593_1tmp surefire_0-20260527130603593_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\omkar\Downloads\Notes-Automation-Framework-20260527T051252Z-3-001\Notes-Automation-Framework\target\test-classes;C:\Users\omkar\Downloads\Notes-Automation-Framework-20260527T051252Z-3-001\Notes-Automation-Framework\target\classes;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\omkar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\omkar\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\omkar\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\omkar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\omkar\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\omkar\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\omkar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\omkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\omkar\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\omkar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\omkar\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\omkar\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\omkar\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\omkar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\omkar\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\omkar\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\omkar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\omkar\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\omkar\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\omkar\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\omkar\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\omkar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\omkar\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\omkar\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\omkar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\omkar\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\omkar\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\omkar\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\omkar\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\omkar\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\omkar\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\omkar\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\omkar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\omkar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\omkar\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\omkar\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\omkar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\omkar\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\omkar\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\omkar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\omkar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\omkar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\omkar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\omkar\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\omkar\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\omkar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\omkar\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\omkar\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\omkar\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\omkar\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.1\log4j-core-2.24.1.jar;C:\Users\omkar\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\omkar\Downloads\Notes-Automation-Framework-20260527T051252Z-3-001\Notes-Automation-Framework/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\omkar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\omkar\Downloads\Notes-Automation-Framework-20260527T051252Z-3-001\Notes-Automation-Framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\omkar\AppData\Local\Temp\surefire12549746959955930966\surefirebooter-20260527130603593_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.3+9-LTS-195"/>
+    <property name="user.name" value="omkar"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\omkar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\omkar\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.3"/>
+    <property name="user.dir" value="C:\Users\omkar\Downloads\Notes-Automation-Framework-20260527T051252Z-3-001\Notes-Automation-Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.3\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\omkar\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\omkar\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Java\jdk-25.0.3\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\omkar\AppData\Local\Programs\Python\Python314;C:\Users\omkar\AppData\Local\Programs\Python\Python314\Scripts;C:\Users\omkar\AppData\Local\Programs\Python\Python311;C:\Users\omkar\AppData\Local\Programs\Python\Python312;C:\Users\omkar\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\omkar\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Users\omkar\Downloads\allure-2.42.0\allure-2.42.0\bin;C:\Users\omkar\Downloads\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Users\omkar\AppData\Local\Programs\Python\Launcher\;C:\Users\omkar\AppData\Local\Microsoft\WindowsApps;C:\Users\omkar\AppData\Roaming\npm;C:\Users\omkar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.3+9-LTS-195"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="createNoteApiTest" classname="com.capstone.notes.automation.tests.api.NotesApiTest" time="2.612">
+    <system-out><![CDATA[Create Note API Passed
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="deleteNoteApiTest" classname="com.capstone.notes.automation.tests.api.NotesApiTest" time="2.021">
+    <system-out><![CDATA[Created Note ID: 6a169f1353916b0295cdb9fb
+Delete Note API Passed
+]]></system-out>
+  </testcase>
+  <testcase name="getNotesTest" classname="com.capstone.notes.automation.tests.api.NotesApiTest" time="1.364">
+    <system-out><![CDATA[GET Notes API Passed
+]]></system-out>
+  </testcase>
+  <testcase name="invalidCreateNoteApiTest" classname="com.capstone.notes.automation.tests.api.NotesApiTest" time="1.285">
+    <system-out><![CDATA[Invalid API validation passed
+]]></system-out>
+  </testcase>
+  <testcase name="responseTimeTest" classname="com.capstone.notes.automation.tests.api.NotesApiTest" time="1.22">
+    <system-out><![CDATA[Response Time: 571 ms
+]]></system-out>
+  </testcase>
+  <testcase name="completeWorkflowTest" classname="com.capstone.notes.automation.tests.e2e.E2ETest" time="142.352">
+    <system-out><![CDATA[[clickAddNote] Clicking Add Note
+[clickAddNote] Waiting for modal to open
+[clickAddNote] Modal is open
+[enterTitle] Entering: E2E_1779867374547
+[enterTitle] Done
+[enterDescription] Entering: End to End Test
+[enterDescription] Done
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[searchNote] Starting — query: 'E2E_1779867374547'
+[clearAndType] StaleElement on attempt 1 for locator: By.cssSelector: [data-testid='search-input']
+[searchNote] Done
+[editNote] Starting
+[editNote] Page loaded — waiting for edit button
+[editNote] Edit button visible — clicking
+[editNote] Edit button clicked — waiting for modal
+[editNote] Modal open — entering new title
+[editNote] Title entered — entering new description
+[editNote] Description entered — clicking submit
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[editNote] Submitted
+[searchNote] Starting — query: 'E2E_1779867374547_Updated'
+[searchNote] Done
+[editNote] Search completed
+[searchNote] Starting — query: 'E2E_1779867374547_Updated'
+[searchNote] Done
+[deleteNote] Starting — searching for: E2E_1779867374547_Updated
+[searchNote] Starting — query: 'E2E_1779867374547_Updated'
+[searchNote] Done
+[deleteNote] Waiting for delete button
+[deleteNote] Clicking delete button
+[deleteNote] Waiting for confirmation dialog
+[deleteNote] Dialog visible — clicking confirm
+[deleteNote] Done — page reloaded after delete
+[isDeleteSuccessful] Checking title gone: E2E_1779867374547_Updated
+[searchNote] Starting — query: 'E2E_1779867374547_Updated'
+[searchNote] Done
+[isDeleteSuccessful] Confirmed — no cards found
+Complete E2E workflow passed
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:06:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:06:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreatedNoteViaApiAppearsInUI" classname="com.capstone.notes.automation.tests.e2e.HybridTest" time="46.358">
+    <system-out><![CDATA[[searchNote] Starting — query: 'API Test Note'
+[searchNote] Done
+Hybrid Test Passed
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:08:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:08:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="validateDeletedNoteDisappearsFromUI" classname="com.capstone.notes.automation.tests.e2e.HybridTest" time="56.564">
+    <system-out><![CDATA[[searchNote] Starting — query: 'DeleteHybrid_1779867566475'
+[searchNote] Done
+Deleted note removed from UI
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:09:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:09:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="validateUiApiDataConsistency" classname="com.capstone.notes.automation.tests.e2e.HybridTest" time="56.897">
+    <system-out><![CDATA[[clickAddNote] Clicking Add Note
+[clickAddNote] Waiting for modal to open
+[clickAddNote] Modal is open
+[enterTitle] Entering: Homework_1779867623838
+[enterTitle] Done
+[enterDescription] Entering: Complete by 5 PM
+[enterDescription] Done
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[searchNote] Starting — query: 'Homework_1779867623838'
+[searchNote] Done
+UI → API Consistency Passed
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:10:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:10:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[varadvtelang04@gmail.com, abcdef, Valid](1)" classname="com.capstone.notes.automation.tests.ui.LoginTest" time="4.375">
+    <system-out><![CDATA[Opening browser
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:11:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:11:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest[invalid@test.com, Wrong123, Invalid](2)" classname="com.capstone.notes.automation.tests.ui.LoginTest" time="7.773">
+    <system-out><![CDATA[Closing browser
+Opening browser
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:11:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:11:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="createNoteTest" classname="com.capstone.notes.automation.tests.ui.NotesTest" time="3.189">
+    <system-out><![CDATA[Closing browser
+[createNoteTest] Starting
+[clickAddNote] Clicking Add Note
+[clickAddNote] Waiting for modal to open
+[clickAddNote] Modal is open
+[enterTitle] Entering: Homework
+[enterTitle] Done
+[enterDescription] Entering: Complete by 5 PM
+[enterDescription] Done
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[createNoteTest] PASSED
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:11:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:11:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="searchNoteTest" classname="com.capstone.notes.automation.tests.ui.NotesTest" time="50.816">
+    <system-out><![CDATA[[searchNoteTest] Starting
+[searchNote] Starting — query: 'Homework'
+[clearAndType] StaleElement on attempt 1 for locator: By.cssSelector: [data-testid='search-input']
+[searchNote] Done
+[searchNoteTest] PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="editNoteTest" classname="com.capstone.notes.automation.tests.ui.NotesTest" time="37.491">
+    <system-out><![CDATA[[editNoteTest] Clearing search filter
+[searchNote] Starting — query: ''
+[searchNote] Done
+[editNoteTest] Creating note from Excel
+[clickAddNote] Clicking Add Note
+[clickAddNote] Waiting for modal to open
+[clickAddNote] Modal is open
+[enterTitle] Entering: Shopping
+[enterTitle] Done
+[enterDescription] Entering: Buy groceries
+[enterDescription] Done
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[editNoteTest] Searching for note before edit
+[searchNote] Starting — query: 'Shopping'
+[clearAndType] StaleElement on attempt 1 for locator: By.cssSelector: [data-testid='search-input']
+[searchNote] Done
+[editNoteTest] Note created — starting edit
+[editNote] Starting
+[editNote] Page loaded — waiting for edit button
+[editNote] Edit button visible — clicking
+[editNote] Edit button clicked — waiting for modal
+[editNote] Modal open — entering new title
+[editNote] Title entered — entering new description
+[editNote] Description entered — clicking submit
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[editNote] Submitted
+[searchNote] Starting — query: 'ShoppingUpdated'
+[searchNote] Done
+[editNote] Search completed
+[editNoteTest] Edit done — asserting
+[searchNote] Starting — query: 'ShoppingUpdated'
+[searchNote] Done
+[editNoteTest] PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="deleteNoteTest" classname="com.capstone.notes.automation.tests.ui.NotesTest" time="19.506">
+    <system-out><![CDATA[[deleteNoteTest] Starting
+[searchNote] Starting — query: ''
+[searchNote] Done
+[deleteNoteTest] Creating note: TemporaryNote_1779867815140
+[clickAddNote] Clicking Add Note
+[clickAddNote] Waiting for modal to open
+[clickAddNote] Modal is open
+[enterTitle] Entering: TemporaryNote_1779867815140
+[enterTitle] Done
+[enterDescription] Entering: Delete this note
+[enterDescription] Done
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[deleteNoteTest] Note created — deleting
+[deleteNote] Starting — searching for: TemporaryNote_1779867815140
+[searchNote] Starting — query: 'TemporaryNote_1779867815140'
+[searchNote] Done
+[deleteNote] Waiting for delete button
+[deleteNote] Clicking delete button
+[deleteNote] Waiting for confirmation dialog
+[deleteNote] Dialog visible — clicking confirm
+[deleteNote] Done — page reloaded after delete
+[deleteNoteTest] Delete done — asserting
+[isDeleteSuccessful] Checking title gone: TemporaryNote_1779867815140
+[searchNote] Starting — query: 'TemporaryNote_1779867815140'
+[searchNote] Done
+[isDeleteSuccessful] Confirmed — no cards found
+[deleteNoteTest] PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="invalidNoteTest" classname="com.capstone.notes.automation.tests.ui.NotesTest" time="1.007">
+    <system-out><![CDATA[[invalidNoteTest] Starting
+[clickAddNote] Clicking Add Note
+[clickAddNote] Waiting for modal to open
+[clickAddNote] Modal is open
+[enterTitle] Entering: 
+[enterTitle] Done
+[enterDescription] Entering: Invalid Test Note
+[enterDescription] Done
+[clickSubmit] Clicking submit button
+[clickSubmit] Waiting for page to fully reload
+[clickSubmit] Page reloaded successfully
+[invalidNoteTest] PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="registerTest" classname="com.capstone.notes.automation.tests.ui.RegisterTest" time="24.596">
+    <system-out><![CDATA[[registerTest] Starting
+[registerUser] Opening registration
+[registerUser] Entering data
+[registerUser] Clicking register
+[registerTest] PASSED
+]]></system-out>
+    <system-err><![CDATA[May 27, 2026 1:13:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 27, 2026 1:13:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

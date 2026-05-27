@@ -1,0 +1,11 @@
+{
+    "success": true,
+    "status": 200,
+    "message": "Login successful",
+    "data": {
+        "id": "6a0fe08f038935029661e54a",
+        "name": "Varad Telang",
+        "email": "varadvtelang04@gmail.com",
+        "token": "bc90c20ba9d94258b3674d3b92a9bec22752bfffc3e3403c94acc9975eb2fc5a"
+    }
+}
